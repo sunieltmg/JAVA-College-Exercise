@@ -40,6 +40,22 @@ public class Main {
 		double prices = (double)3/(double)4;
 		System.out.println(prices);
 		
+		int minResult=Math.min(1, 2);
+		System.out.println(minResult);
+		
+		int maxResult=Math.max(1, 2);
+		System.out.println(maxResult);
+		
+		double guess =Math.random();
+		System.out.println(guess);
+		
+		long rounded=Math.round(guess*100);
+		System.out.println(rounded);
+		
+		
+		int result=(int)Math.round(Math.random()*100);
+		System.out.println(result);	
+		
 		
 	}
  
